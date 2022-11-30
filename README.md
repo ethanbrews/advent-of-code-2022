@@ -1,3 +1,6 @@
-A template repository for Advent of Code in Kotlin
+# Advent of code 2022 solutions
 
-Base taken from [hughjdavey](https://github.com/hughjdavey/aoc-kotlin-starter), with some added features and helpers.
+My solutions to advent of code 2022 :)
+
+Run the latest day `./gradlew run --args="-l"`
+Run all days with `./gradlew run --args="-m"`
