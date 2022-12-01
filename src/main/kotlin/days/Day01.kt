@@ -1,8 +1,10 @@
 package days
 
 class Day01 : Day(1) {
+
+    private val elves = mutableListOf(0)
     override fun part1() : Any {
-        val elves = mutableListOf(0)
+
         inputList.forEach {
             if (it == "")
                 elves.add(0)
@@ -13,6 +15,6 @@ class Day01 : Day(1) {
     }
 
     override fun part2() : Any {
-        return 0
+        return elves.sorted().takeLast(3).sum()
     }
 }
